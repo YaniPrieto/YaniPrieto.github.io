@@ -1,2 +1,2 @@
-# YaniPrieto.github.io
-This is my static website
+# jlalismyuic
+This is my static web site

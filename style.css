@@ -1,5 +1,100 @@
-h1 {
-color: blue;
-background-color: yellow;
-
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: url(BG.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+body {
+  margin: 0;
+}
+
+.wht-bar {
+  background-color: rgba(255, 255, 255, 0.829);
+  margin: 0 auto;
+  display: block;
+  width: 660px;
+  height: 515px;
+  box-shadow: 1px 1px 8px #888888;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 180px;
+}
+
+.logo {
+  margin: 0 auto;
+  position: absolute;
+  box-shadow: 2px 4px 10px #616161;
+  border-radius: 100px;
+}
+
+.logo-myuic {
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.logo-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 23px;
+  padding-left: 200px;
+}
+
+.usname {
+  border: none;
+  border-bottom: 1px solid rgb(59, 59, 59);
+  background-color: transparent;
+  width: 280px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  color: #616161;
+}
+@media only screen and (min-width: 650px) {
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+  .logo-wrapper {
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 450px;
+  }
+}
+.password {
+  border: none;
+  border-bottom: 1px solid rgb(59, 59, 59);
+  background-color: transparent;
+  width: 280px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  color: #616161;
+}
+form {
+  padding-top: 48px;
+}
+button {
+  background-color: #d6647b;
+  color: white;
+  width: 115px;
+  height: 50px;
+  border: none;
+  margin-top: 35px;
+  box-shadow: 2px 4px 8px #616161;
+  font-size: 15px;
+}
+
